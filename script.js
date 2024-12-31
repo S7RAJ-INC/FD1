@@ -45,3 +45,12 @@ document.querySelectorAll('.menu-item').forEach(item => {
         item.classList.add('active');
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const profileSpan = document.getElementById('profile');
+  
+    profileSpan.addEventListener('click', () => {
+      window.location.href = 'profile.html'; 
+    });
+  });
